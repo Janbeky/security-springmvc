@@ -13,6 +13,7 @@ import javax.servlet.ServletException;
 public class SpringApplicationInitializer extends
         AbstractAnnotationConfigDispatcherServletInitializer {
 
+    //相当于替代web.xml
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class[]{ApplicationConfig.class};
